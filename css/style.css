@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.main__header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 90px;
+  z-index: 5;
+}
+
+.header__logo {
+    width: 24%;
+    margin: 30px;
+}
+
+.header__navbar {
+  position: relative;
+  left: -150px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: 40px;
+}
+
+.dumplins__button {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    background-color: #F95738;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: auto;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.main_image__section {
+    background-image: url('../img/main-section.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+    margin: 150px auto 40px;
+}
+
+.content_section__title {
+    font-size: 70px;
+    color: #F95738;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content_section__tagline {
+    font-weight: 900;
+    color: #F95738;
+    text-align: center;
+    font-size: 35px;  
+    margin: 20px;  
+}
+
+.content_section__description{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.content_section__description span {
+    font-weight: bold;
+}
+
+.visit__btn {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F95738;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.unique_food__section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: 1440px;
+    background-color: #238967;
+}
+
+.circular_image {
+    background-image: url("../img/unique_food_section.JPG");
+    background-size: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.dumpling_classes__section {
+    width: auto;
+    height: 720px;
+    background-color: #f95738;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unique_food__subsection{
+    height: 480px;
+    width: 720px;
+    background-color:#fff;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+.subsection_card__title{
+    width: 80%;
+    text-align: left;
+    margin: 40px;
+    color: #f95738;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.subsection_card__desc {
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.seasonal_flavours {
+    background-color: #fdbc00;
+    color: black;
+    border: none;
+    padding: 20px 25px;
+    margin-left: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.subsection_card__desc span {
+    font-weight: bold;
+}
+
+.dumpling_class__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: url("../img/1A3A1735.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    left: 3%;
+}
+
+.dumpling_classes__subsection {
+    width: 720px;
+    height: 400px;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+    right: 7%;
+    top: 15%
+}
+
+.dumpling_classes__title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #238967;
+    margin: 40px;
+}
+
+.dumpling_classes__desc{
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.dumplings__section{
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+}
+
+.find_dumplings__title {
+    font-size: 45px;
+    margin: 45px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #F95738;
+}
+
+.dumplings_map__section {
+    background-color: wheat;
+    width: 100%;
+    height: 80%;
+}
+
+.dumplings_map__img{
+    width: 100%;
+    height: 80%;
+    border-radius: 25%;
+    background-image: url("../img/Screen+Shot+2022-06-07+at+1.55.33+PM.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
