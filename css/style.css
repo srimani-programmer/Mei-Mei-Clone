@@ -250,8 +250,7 @@ body {
 
 .inital_container__section {
   width: 700px;
-  height: 600px;
-  background-color: red;
+  height: 550px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -260,8 +259,28 @@ body {
   display: flex;
 }
 
+.active {
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0;
+}
+
+.remove {
+  display: none;
+}
+
+#overlay_close__btn {
+  color: grey;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
 .inital_content_img {
-    width: 60%;
+    width: 400px;
     height: 100%;
 }
 
@@ -271,14 +290,42 @@ body {
 }
 
 .inital_card__title{
-    margin: 80px 50px 15px;
+    padding: 80px 40px 15px;
     font-size: 36px;
     color: #238967;
     font-weight: 700;
 }
 
 .inital_card__desc {
-    margin-left: 50px;
-    margin-right: 55px;
+    width: 75%;
+    padding-left: 40px;
+    text-align: start;
+    padding-bottom: 30px;
+}
 
+.inital_email__box {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+}
+
+.inital_signup {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  border: none;
+  background-color: #fdbc00;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.privacy_policy {
+  width: 80%;
+  padding-left: 30px;
+  padding-top: 15px;
 }
