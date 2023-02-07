@@ -19,4 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
     }
+
+    const closeAdBannerSection = document.querySelector("#ad_banner__close");
+
+    if (closeAdBannerSection) {
+        closeAdBannerSection.addEventListener('click', () => {
+            const adBanner = document.querySelector('.ad_banner__section');
+            adBanner.classList.add('remove');
+
+        })
+    }
 })
